@@ -22,7 +22,6 @@ public class StackTest {
         assertEquals(4, stack.pop());
         assertEquals(3, stack.pop());
         assertEquals(2, stack.pop());
-        assertEquals(1, stack.pop());
     }
 
     @Test
