@@ -1,5 +1,6 @@
 package ua.edu.ucu.collections;
 
+import ua.edu.ucu.collections.immutable.ImmutableArrayList;
 import ua.edu.ucu.collections.immutable.ImmutableLinkedList;
 import ua.edu.ucu.collections.immutable.ImmutableList;
 
@@ -7,7 +8,7 @@ public class Queue {
     private ImmutableList data;
 
     public Queue() {
-        this.data = new ImmutableLinkedList();
+        this.data = new ImmutableArrayList();
     }
 
 

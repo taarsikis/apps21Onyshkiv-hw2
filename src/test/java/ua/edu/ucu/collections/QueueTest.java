@@ -19,7 +19,6 @@ public class QueueTest {
     public void peek() {
         assertEquals(1, queue.dequeue());
         assertEquals(2, queue.dequeue());
-        assertEquals(3, queue.dequeue());
     }
 
     @Test
