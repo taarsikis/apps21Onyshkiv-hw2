@@ -11,12 +11,6 @@ public class Node {
         this.value = null;
     }
 
-    @Override
-    public String toString() {
-        return value.toString();
-    }
-
-
     public Node getPrevious() {
         return this.previous;
     }
